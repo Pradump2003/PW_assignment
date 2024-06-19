@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> styling </title>
+    <!-- This is internal css -->
+    <style>
+        .internal {
+            color: green;
+        }
+        .inline__internal {
+            color: red;
+        }
+        .internal__external {
+            color: brown;
+        }
+        .inline__internal__external {
+            color: aqua;
+        }
+
+    </style>
+    <!-- priority in CSS Inline CSS > Internal CSS > External -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- This is inline CSS -->
+    <div class="internal"> Internal CSS</div>
+    <div class="external"> External CSS</div>
+    <div class="inline" style="color: turquoise;"> Inline CSS </div>
+    <div class="inline__internal" style="color: aqua;"> Inline + Internal</div>
+    <div class="internal__external"> Internal + External</div>
+    <div class="inline__internal__external" style="color: rgb(238, 16, 205);"> internal + inline + external </div>
+    
+</body>
+</html>

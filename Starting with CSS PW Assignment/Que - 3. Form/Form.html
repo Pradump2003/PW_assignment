@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Form </title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th> Student Field</th>
+                <th> Data</th>
+            </tr>
+            <tr>
+                <td> First Name : </td>
+                <td> <input style="background-color: bisque;" type="text" placeholder="Enter first name" required min="3" max="15"> </td>
+            </tr>
+            <tr>
+                <td> Last Name : </td>
+                <td> <input style="background-color: rgb(208, 205, 211);" type="text" placeholder="Enter last name" required min="3" max="20"></td>
+            </tr>
+            <tr>
+                <td> Email : </td>
+                <td> <input style="background-color: yellowgreen;" type="email" name="Email" placeholder="email" max="20"></td>
+            </tr>
+            <tr>
+                <td> Passward : </td>
+                <td> <input type="password" name="pass" placeholder="********" min="8"></td>
+            </tr>
+            <tr>
+                <td> Confirm Passward : </td>
+                <td> <input type="password" name="confirm pass" required ></td>
+            </tr>
+            <tr>
+                <td> Father Name : </td>
+                <td> <input style="background-color: aliceblue;" type="text" placeholder="Enter your Father Name"></td>
+            </tr>
+            <tr>
+                <td> Student Address : </td>
+                <td> <textarea name="Aderess" ></textarea></td>
+            </tr>
+            <tr>
+                <td> DOB : </td>
+                <td> <input style="background-color: rgb(102, 102, 209);" type="date" name="" id=""></td>
+            </tr>
+            <tr>
+                <td> Gender : </td>
+                <td> <select style="background-color: aqua;">
+                    <option > Male </option>
+                    <option > Female </option>
+                    <option > Other </option>
+                </select></td>
+            </tr>
+            <tr>
+                <td> Age : </td>
+                <td> <input type="text" placeholder="40" required> </td>
+            </tr>
+            <tr>
+                <td> Course : </td>
+                <td> 
+                    <input type="radio" name="course" id="btech" checked> <label> B.tech </label>
+                    <input type="radio" name="course" id="bca" > <label> BCA </label> 
+                    <input type="radio" name="course" id="mca" > <label> MCA </label> 
+                </td>
+            </tr>
+            <tr>
+                <td>Terms : </td>
+                <td><input type="checkbox" name="terms"> I accept terms and condition</td>
+            </tr>
+            <tr>
+                <td><button style="background-color: rgb(186, 24, 222);" type="reset"> Reset </button></td>
+                <td> <button style="background-color: blue;" type="submit"> Submit </button></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

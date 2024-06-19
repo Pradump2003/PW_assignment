@@ -1,0 +1,10 @@
+/* This is External CSS */
+internal{
+    color: rgb(231, 231, 9);
+}
+.external{
+    color: rgb(128, 0, 128);
+}
+.inline{
+    color: rgb(43, 198, 226);
+}
